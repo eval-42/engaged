@@ -17,7 +17,8 @@ defmodule Engaged.Application do
       # Start a worker by calling: Engaged.Worker.start_link(arg)
       # {Engaged.Worker, arg},
       # Start to serve requests, typically the last entry
-      EngagedWeb.Endpoint
+      EngagedWeb.Endpoint,
+      {Task.Supervisor, name: Engaged.TaskSupervisor}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html
