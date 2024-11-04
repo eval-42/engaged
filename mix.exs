@@ -60,6 +60,7 @@ defmodule Engaged.MixProject do
       {:bandit, "~> 1.5"},
       {:google_api_you_tube, "~> 0.50.1"},
       {:mint, "~> 1.6"},
+      {:oban, "~> 2.18"},
       # Development and Test Dependencies
       {:phoenix_live_reload, "~> 1.2", only: :dev},
       {:mox, "~> 1.2", only: [:dev, :test]}

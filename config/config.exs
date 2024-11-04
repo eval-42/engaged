@@ -67,6 +67,13 @@ config :tesla, adapter: Tesla.Adapter.Mint
 # Set the YouTube API key in other environment-specific files
 config :engaged, you_tube_api_key: "API_KEY_NOT_REAL"
 
+# Add Oban configuration
+# config/config.exs
+config :engaged, Oban,
+  engine: Oban.Engines.Basic,
+  queues: [default: 10],
+  repo: Engaged.Repo
+
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
 import_config("#{config_env()}.exs")

@@ -18,7 +18,8 @@ defmodule Engaged.Application do
       # {Engaged.Worker, arg},
       # Start to serve requests, typically the last entry
       EngagedWeb.Endpoint,
-      {Task.Supervisor, name: Engaged.TaskSupervisor}
+      {Task.Supervisor, name: Engaged.TaskSupervisor},
+      {Oban, Application.fetch_env!(:engaged, Oban)}
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

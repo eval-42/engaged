@@ -38,3 +38,6 @@ config :phoenix_live_view,
 
 # Mock adapter for API requests
 config :tesla, adapter: Engaged.MockAdapter
+
+# Configure Oban test adapter
+config :engaged, Oban, testing: :inline
