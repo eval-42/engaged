@@ -6,6 +6,8 @@ defmodule Engaged.Repo.Migrations.CreateCaptions do
       add :video_id, references(:videos), null: false, primary_key: true
       add :language, :string, null: false
       add :content, :text, null: false
+
+      timestamps(type: :utc_datetime)
     end
 
     create unique_index(:captions, [:video_id, :language])
