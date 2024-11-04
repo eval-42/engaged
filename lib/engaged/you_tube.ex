@@ -24,7 +24,7 @@ defmodule Engaged.YouTube do
   end
 
   defp api_client() do
-    api_key = Application.fetch_env!(:engaged, :youtube_api_key)
+    api_key = Application.fetch_env!(:engaged, :you_tube_api_key)
     Connection.new(api_key)
   end
 end

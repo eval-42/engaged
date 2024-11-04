@@ -64,6 +64,9 @@ config :phoenix, :json_library, Jason
 # Use Mint for tesla requests
 config :tesla, adapter: Tesla.Adapter.Mint
 
+# Set the YouTube API key in other environment-specific files
+config :engaged, you_tube_api_key: "API_KEY_NOT_REAL"
+
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
-import_config "#{config_env()}.exs"
+import_config("#{config_env()}.exs")
