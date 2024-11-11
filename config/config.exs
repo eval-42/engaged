@@ -71,7 +71,14 @@ config :engaged, you_tube_api_key: "API_KEY_NOT_REAL"
 # config/config.exs
 config :engaged, Oban,
   engine: Oban.Engines.Basic,
-  queues: [default: 10],
+  queues: [default: 10, youtube: 10, monitors: 10],
+  plugins: [
+    Oban.Plugins.Cron,
+    crontab: [
+      # Restart paused queues every hour
+      {"@hourly", Engaged.Workers.APIMonitorWorker}
+    ]
+  ],
   repo: Engaged.Repo
 
 # Import environment specific config. This must remain at the bottom
