@@ -2,6 +2,8 @@ defmodule Engaged.Repo.Migrations.CreateSubscribers do
   use Ecto.Migration
 
   def change do
+    execute "CREATE EXTENSION IF NOT EXISTS citext", ""
+
     create table(:subscribers) do
       add :email, :citext
 
