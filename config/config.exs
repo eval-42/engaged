@@ -73,11 +73,11 @@ config :engaged, Oban,
   engine: Oban.Engines.Basic,
   queues: [default: 10, youtube: 10, monitors: 10],
   plugins: [
-    Oban.Plugins.Cron,
-    crontab: [
-      # Restart paused queues every hour
-      {"@hourly", Engaged.Workers.APIMonitorWorker}
-    ]
+    {Oban.Plugins.Cron,
+     crontab: [
+       # Restart paused queues every hour
+       {"@hourly", Engaged.Workers.APIMonitorWorker}
+     ]}
   ],
   repo: Engaged.Repo
 
