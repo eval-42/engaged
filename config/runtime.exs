@@ -28,13 +28,13 @@ if config_env() == :prod do
       For example: ecto://USER:PASS@HOST/DATABASE
       """
 
-  you_tube_api_key =
+  youtube_api_key =
     System.get_env("YOUTUBE_API_KEY") ||
       raise """
       environment variable YOUTUBE_API_KEY is missing.
       """
 
-  config :engaged, you_tube_api_key: you_tube_api_key
+  config :engaged, youtube_api_key: youtube_api_key
 
   maybe_ipv6 = if System.get_env("ECTO_IPV6") in ~w(true 1), do: [:inet6], else: []
 

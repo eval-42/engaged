@@ -65,7 +65,7 @@ config :phoenix, :json_library, Jason
 config :tesla, adapter: Tesla.Adapter.Mint
 
 # Set the YouTube API key in other environment-specific files
-config :engaged, you_tube_api_key: "API_KEY_NOT_REAL"
+config :engaged, youtube_api_key: "API_KEY_NOT_REAL"
 
 # Add Oban configuration
 # config/config.exs
