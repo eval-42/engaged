@@ -1,0 +1,44 @@
+{
+  "kind": "youtube#captionListResponse",
+  "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Yc_T5j-nHHB6OU_PpYTB9qxABXk\"",
+  "items": [
+    {
+      "kind": "youtube#caption",
+      "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Hdq_jE3DzQH4mO4sdyKN0-MO0Eg\"",
+      "id": "NaLVBpPdUMuXfRtSVB0BrK6TLNRa9icieAR6QTGSqkU=",
+      "snippet": {
+        "videoId": "VIDEO_ID",
+        "lastUpdated": "2024-01-15T09:13:51.571Z",
+        "trackKind": "standard",
+        "language": "en",
+        "name": "English",
+        "audioTrackType": "unknown",
+        "isCC": false,
+        "isLarge": false,
+        "isEasyReader": false,
+        "isDraft": false,
+        "isAutoSynced": false,
+        "status": "serving"
+      }
+    },
+    {
+      "kind": "youtube#caption",
+      "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/BoGaYWOCaAgR_RY3AfC_vK3v_N0\"",
+      "id": "NaLVBpPdUMuXfRtSVB0BrK6TLNRa9icieAR6QTGSqkU=.es",
+      "snippet": {
+        "videoId": "VIDEO_ID",
+        "lastUpdated": "2024-01-15T09:14:12.421Z",
+        "trackKind": "standard",
+        "language": "es",
+        "name": "Spanish",
+        "audioTrackType": "unknown",
+        "isCC": false,
+        "isLarge": false,
+        "isEasyReader": false,
+        "isDraft": false,
+        "isAutoSynced": true,
+        "status": "serving"
+      }
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "\"SJZWTG6xR0eGuCOh2bX6w3s4F94/PaiEDiVxOyCWelLPuuwa9LKz3Gk\"",
+  "nextPageToken": "CDIQAA",
+  "pageInfo": {
+    "totalResults": 200,
+    "resultsPerPage": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"SJZWTG6xR0eGuCOh2bX6w3s4F94/Bd-rb7KfKVi_yAB6zL_qIkHkTA8\"",
+      "id": "UExSZmJYaG9VWnRmX0p2ZW9FVlRHYklBYkFCeE1BSzF0Ny41NkI0NEY2RDEwNTU3Q0M2",
+      "snippet": {
+        "publishedAt": "2024-01-15T08:00:00Z",
+        "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+        "title": "Getting Started with Web Development",
+        "description": "Learn the basics of HTML, CSS and JavaScript in this tutorial.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/example1/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/example1/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/example1/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/example1/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "TechTutorials",
+        "playlistId": "PLRfbXhoUZtf_JveoEVTGbIAbABxMAK1t7",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "example1"
+        }
+      },
+      "contentDetails": {
+        "videoId": "example1",
+        "videoPublishedAt": "2024-01-15T08:00:00Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "\"SJZWTG6xR0eGuCOh2bX6w3s4F94/Bd-rb7KfKVi_yAB6zL_qIkHkTA8\"",
+      "id": "UExSZmJYaG9VWnRmX0p2ZW9FVlRHYklBYkFCeE1BSzF0Ny41NkI0NEY2RDEwNTU3Q0M2",
+      "snippet": {
+        "publishedAt": "2024-01-16T09:30:00Z",
+        "channelId": "UC_x5XG1OV2P6uZZ5FSM9Ttw",
+        "title": "Advanced CSS Techniques",
+        "description": "Learn advanced CSS layouts and animations.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/example2/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/example2/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/example2/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/example2/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "TechTutorials",
+        "playlistId": "PLRfbXhoUZtf_JveoEVTGbIAbABxMAK1t7",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "example2"
+        }
+      },
+      "contentDetails": {
+        "videoId": "example2",
+        "videoPublishedAt": "2024-01-16T09:30:00Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    }
+  ]
+}
