@@ -13,7 +13,7 @@ defmodule Engaged.Captions.Caption do
 
   def changeset(caption, params \\ %{}) do
     caption
-    |> cast(params, [:language, :content])
-    |> validate_required([:language, :content])
+    |> cast(params, [:video_id, :language, :content])
+    |> validate_required([:video_id, :language, :content])
   end
 end
