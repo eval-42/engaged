@@ -6,6 +6,6 @@ defmodule Engaged.Workers.APIMonitorWorker do
 
   @impl true
   def perform(%{args: %{queue: queue}}) do
-    Oban.resume_queue(queue)
+    Oban.resume_queue(queue: queue)
   end
 end
