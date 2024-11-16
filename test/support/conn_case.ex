@@ -28,6 +28,8 @@ defmodule EngagedWeb.ConnCase do
       import Plug.Conn
       import Phoenix.ConnTest
       import EngagedWeb.ConnCase
+
+      import Engaged.Factory
     end
   end
 

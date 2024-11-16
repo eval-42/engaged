@@ -63,7 +63,8 @@ defmodule Engaged.MixProject do
       {:oban, "~> 2.18"},
       # Development and Test Dependencies
       {:phoenix_live_reload, "~> 1.2", only: :dev},
-      {:mox, "~> 1.2", only: [:dev, :test]}
+      {:mox, "~> 1.2", only: [:dev, :test]},
+      {:ex_machina, "~> 2.8", only: :test}
     ]
   end
 
