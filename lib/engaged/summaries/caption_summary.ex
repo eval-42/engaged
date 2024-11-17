@@ -1,4 +1,8 @@
 defmodule Engaged.Summaries.CaptionSummary do
+  @moduledoc """
+  Represents a summarized video caption.
+  """
+
   use Ecto.Schema
   import Ecto.Changeset
 

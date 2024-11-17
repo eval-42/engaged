@@ -1,4 +1,8 @@
 defmodule Engaged.Captions.Caption do
+  @moduledoc """
+  A caption for a video in SRT format.
+  """
+
   use Ecto.Schema
   import Ecto.Changeset
 

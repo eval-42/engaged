@@ -1,4 +1,8 @@
 defmodule Engaged.Subscriptions.Subscription do
+  @moduledoc """
+  Represents an organized video source from an external provider. Examples include playlists and channels from sources such as YouTube and Vimeo.
+  """
+
   use Ecto.Schema
   import Ecto.Changeset
 

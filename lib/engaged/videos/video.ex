@@ -1,4 +1,8 @@
 defmodule Engaged.Videos.Video do
+  @moduledoc """
+  The Video schema. It represents a videos objects stored in an external service such as YouTube, Vimeo, etc.
+  """
+
   use Ecto.Schema
   import Ecto.Changeset
 

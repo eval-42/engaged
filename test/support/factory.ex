@@ -1,4 +1,8 @@
 defmodule Engaged.Factory do
+  @moduledoc """
+  Factories for generating schema fixtures in tests.
+  """
+
   use ExMachina.Ecto, repo: Engaged.Repo
 
   alias Engaged.Subscriptions.Subscription

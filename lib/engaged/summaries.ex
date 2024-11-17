@@ -3,4 +3,3 @@ defmodule Engaged.Summaries do
   Provides context functions around summaries.
   """
 end
-

@@ -1,4 +1,8 @@
 defmodule Engaged.Subscribers.Subscriber do
+  @moduledoc """
+  An end user that is subscribed to summarized updates.
+  """
+
   use Ecto.Schema
   import Ecto.Changeset
 
