@@ -10,9 +10,7 @@ defmodule Engaged.SubscriptionsFixtures do
   def subscription_fixture(attrs \\ %{}) do
     {:ok, subscription} =
       attrs
-      |> Enum.into(%{
-
-      })
+      |> Enum.into(%{})
       |> Engaged.Subscriptions.create_subscription()
 
     subscription
