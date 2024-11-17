@@ -64,6 +64,7 @@ defmodule Engaged.MixProject do
       # Development and Test Dependencies
       {:phoenix_live_reload, "~> 1.2", only: :dev},
       {:mox, "~> 1.2", only: [:dev, :test]},
+      {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
       {:ex_machina, "~> 2.8", only: :test}
     ]
   end
