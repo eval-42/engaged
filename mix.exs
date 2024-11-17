@@ -65,6 +65,7 @@ defmodule Engaged.MixProject do
       {:phoenix_live_reload, "~> 1.2", only: :dev},
       {:mox, "~> 1.2", only: [:dev, :test]},
       {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
+      {:git_hooks, "~> 0.7.3", only: :dev},
       {:ex_machina, "~> 2.8", only: :test}
     ]
   end

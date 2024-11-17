@@ -83,3 +83,21 @@ config :phoenix_live_view,
 
 # Disable swoosh api client as it is only required for production adapters.
 config :swoosh, :api_client, false
+
+{project_path, 0} = System.cmd("pwd", [])
+project_path = String.replace(project_path, ~r/\n/, "/")
+
+config :git_hooks,
+  hooks: [
+    pre_commit: [
+      tasks: [
+        {:cmd, "mix format --check-formatted"}
+      ]
+    ],
+    pre_push: [
+      tasks: [
+        {:cmd, "mix credo"}
+      ]
+    ]
+  ],
+  project_path: project_path
