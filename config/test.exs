@@ -40,4 +40,4 @@ config :phoenix_live_view,
 config :tesla, adapter: Engaged.MockAdapter
 
 # Configure Oban test adapter
-config :engaged, Oban, testing: :inline
+config :engaged, Oban, plugins: false, queues: false
