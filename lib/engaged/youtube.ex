@@ -26,6 +26,12 @@ defmodule Engaged.YouTube do
   @doc """
   Retrieves a list of playlist items given a playlist id and page_token.
   """
+  def list_playlist_items(playlist_items, page_token \\ nil)
+
+  def list_playlist_items(playlist_id, page_token) when is_nil(page_token) do
+    list_playlist_items(playlist_id)
+  end
+
   def list_playlist_items(playlist_id, page_token) when is_binary(page_token) do
     result =
       YouTubeClient.new()
