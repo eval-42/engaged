@@ -1,5 +1,5 @@
 defmodule Engaged.Workers.SubscriptionsWorkerTest do
-  use Engaged.DataCase, aync: true
+  use Engaged.DataCase, async: true
 
   alias Engaged.Workers.SubscriptionsWorker
   alias Engaged.Workers.YouTubeAPIWorker
